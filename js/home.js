@@ -39,7 +39,7 @@ async function load(query) {
   } catch (err) {
     if (err.name === 'AbortError') return;
     console.error(err);
-    showMessage(grid, 'Something went wrong while loading books. Please try again.', 'error');
+    showMessage(grid, 'Something went wrong while loading books. Please try again later.', 'error');
   }
 }
 
