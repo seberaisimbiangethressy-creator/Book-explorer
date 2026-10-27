@@ -15,7 +15,7 @@ function render() {
   if (favorites.length === 0) {
     showMessage(
       grid,
-      'No favorites yet. <a href="index.html" class="text-indigo-600 underline">Browse books</a> and add some!'
+      'No favorites yet. <a href="index.html" class="text-amber-600 underline">Browse books</a> and add some!'
     );
     return;
   }
